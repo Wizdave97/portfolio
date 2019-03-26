@@ -1,0 +1,129 @@
+body,html{
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif;
+
+}
+.main{
+    display:flex;
+    margin:0;
+    padding: 0;
+    width:100%;
+    flex-wrap:wrap;
+    color:#2d3c49;
+
+
+}
+h2,h3,h4{
+    font-weight: 100;
+ }
+ img{
+    width:100%;
+    height:auto;
+}
+
+.details,.skill-set,.code-background{
+    display:block;
+    padding:0;
+    width:100%;
+    margin-bottom: 10px;
+}
+/*
+Skill Set
+*/
+.skill-set{
+    text-align: left;
+    box-shadow: 10px 8px 15px rgba(0,0,0,0.3);
+    border-left:3px solid #7d97ad;
+    text-transform: capitalize;
+    padding-left: 10px;
+}
+.skill-set ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+.skill-set ul li{
+    display: inline;
+    margin-left:auto;
+    margin-right:auto;
+}
+/*Profile*/
+
+.profile-photo{
+    width:200px;
+    height:200px;
+    border-radius:100px 100px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 10px;
+}
+
+.profile{
+    margin-left:auto;
+    margin-right:auto;
+    text-align: left;
+    box-shadow: 10px 8px 15px rgba(0,0,0,0.3);
+    border-left:3px solid  #7d97ad;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+svg{ width:50px;
+     height:50px;
+    }
+/*featured-works*/
+.featured-works{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 10px 8px 15px rgba(0,0,0,0.3);
+    text-transform: capitalize;
+}
+.featured-works .featured img{
+    width:100%;
+    box-shadow: 10px 8px 15px rgba(0,0,0,0.3);
+    height:auto;
+}
+/*code-background*/
+.code-background{
+    box-shadow: 10px 8px 15px rgba(0,0,0,0.3);
+    margin-top:10px 0 10px 0;
+}
+@media screen and (min-width:550px) {
+   .skill-set{
+       width:60%;
+   }
+}
+@media screen and (min-width:760px){
+    .featured-works>div{
+        display: flex;
+        flex-direction: row;
+    }
+    .featured{
+        width:30%;
+        height:300px;
+        margin-left:auto;
+        margin-right:auto;
+
+    }
+    .featured-works .featured img{
+        height:200px;
+    }
+
+}
+@media screen and (min-width:1000px){
+    .main{
+        width:1000px;
+        margin:auto;
+    }
+
+}
+a{
+  text-decoration: none;
+  color:skyblue;
+  font-size:1.2em;
+}
+a:hover{
+  text-decoration: underline;
+}
