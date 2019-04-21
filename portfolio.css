@@ -75,13 +75,16 @@ svg{ width:50px;
 /*featured-works*/
 .featured-works{
     display:flex;
+    padding: 10px;
     flex-direction: column;
     width: 100%;
     box-shadow: 10px 8px 15px rgba(0,0,0,0.3);
     text-transform: capitalize;
 }
+
 .featured-works .featured img{
     width:100%;
+    box-sizing: border-box;
     box-shadow: 10px 8px 15px rgba(0,0,0,0.3);
     height:auto;
 }
@@ -102,6 +105,7 @@ svg{ width:50px;
     }
     .featured{
         width:30%;
+        padding:10px;
         height:300px;
         margin-left:auto;
         margin-right:auto;
