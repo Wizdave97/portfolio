@@ -22,8 +22,8 @@
         <div class="d3"></div>
         <div class="d4"></div>
     </div>
-    <header class="w-full flex h-12 sm:h-20 dark-bg" id="navbar">
-        <nav class="w-full flex flex-row justify-center  items-end">
+    <header class="w-full flex h-16 sm:h-20 dark-bg shadow-xl" id="navbar">
+        <nav class="w-full h-full flex flex-row justify-center  items-end">
             <ul class="mx-auto md:w-full flex flex-row items-center md:justify-end p-2 overflow-x-auto">
                 <li class="p-4 relative font-mono light-shades-text md:text-lg link hover:font-bolder .antialiased text-sm active:bg-purple-600 active:text-gray-100 rounded-sm"><a href="#home" class="w-full h-full text-decoration-none text-inherit ">hOme</a></li>
                 <li class="p-4 relative font-mono light-shades-text md:text-lg link hover:font-bolder .antialiased text-sm active:bg-purple-600 active:text-gray-100 rounded-sm"><a href="#about" class="w-full h-full text-decoration-none text-inherit ">aBout</a></li>
@@ -286,9 +286,9 @@
       // Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
       function myFunction() {
         if (window.pageYOffset >= sticky) {
-          navbar.classList.add("sticky","z-50")
+          navbar.classList.add("sticky","z-50","shadow-2xl")
         } else {
-          navbar.classList.remove("sticky","z-50");
+          navbar.classList.remove("sticky","z-50","shadow-2xl");
         }
       }
     </script>
